@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C42FCB5218F5583100EFA074 /* customCell.png in Resources */ = {isa = PBXBuildFile; fileRef = C42FCB5118F5583100EFA074 /* customCell.png */; };
+		C42FCB5518F55A2B00EFA074 /* cameraCell.png in Resources */ = {isa = PBXBuildFile; fileRef = C42FCB5318F55A2B00EFA074 /* cameraCell.png */; };
+		C42FCB5618F55A2B00EFA074 /* groupCell.png in Resources */ = {isa = PBXBuildFile; fileRef = C42FCB5418F55A2B00EFA074 /* groupCell.png */; };
+		C42FCB5918F5833000EFA074 /* firstVC2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42FCB5818F5833000EFA074 /* firstVC2ViewController.m */; };
+		C42FCB5C18F5834600EFA074 /* secondVC2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42FCB5B18F5834600EFA074 /* secondVC2ViewController.m */; };
+		C42FCB6218F5839600EFA074 /* cameraVC2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42FCB6118F5839600EFA074 /* cameraVC2ViewController.m */; };
+		C42FCB6518F583A800EFA074 /* profileVC2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42FCB6418F583A800EFA074 /* profileVC2ViewController.m */; };
+		C42FCB7318F628DF00EFA074 /* mistyTrail.png in Resources */ = {isa = PBXBuildFile; fileRef = C42FCB6F18F628DF00EFA074 /* mistyTrail.png */; };
+		C42FCB7418F628DF00EFA074 /* moonView.png in Resources */ = {isa = PBXBuildFile; fileRef = C42FCB7018F628DF00EFA074 /* moonView.png */; };
+		C42FCB7518F628DF00EFA074 /* rainbowSky.png in Resources */ = {isa = PBXBuildFile; fileRef = C42FCB7118F628DF00EFA074 /* rainbowSky.png */; };
+		C42FCB7618F628DF00EFA074 /* riverView.png in Resources */ = {isa = PBXBuildFile; fileRef = C42FCB7218F628DF00EFA074 /* riverView.png */; };
+		C42FCB7A18F64D5900EFA074 /* redderX.png in Resources */ = {isa = PBXBuildFile; fileRef = C42FCB7918F64D5900EFA074 /* redderX.png */; };
+		C42FCB7D18F64F4800EFA074 /* thirdTrackItViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42FCB7C18F64F4800EFA074 /* thirdTrackItViewController.m */; };
+		C47ADE1D18F6F34000713568 /* Outline@2x in Resources */ = {isa = PBXBuildFile; fileRef = C47ADE1C18F6F34000713568 /* Outline@2x */; };
+		C488DB1418F37CB7002D0841 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C488DB1318F37CB7002D0841 /* Foundation.framework */; };
+		C488DB1618F37CB7002D0841 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C488DB1518F37CB7002D0841 /* CoreGraphics.framework */; };
+		C488DB1818F37CB7002D0841 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C488DB1718F37CB7002D0841 /* UIKit.framework */; };
+		C488DB1E18F37CB8002D0841 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C488DB1C18F37CB8002D0841 /* InfoPlist.strings */; };
+		C488DB2018F37CB8002D0841 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C488DB1F18F37CB8002D0841 /* main.m */; };
+		C488DB2418F37CB8002D0841 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C488DB2318F37CB8002D0841 /* AppDelegate.m */; };
+		C488DB2718F37CB8002D0841 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C488DB2518F37CB8002D0841 /* Main_iPhone.storyboard */; };
+		C488DB2A18F37CB8002D0841 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C488DB2818F37CB8002D0841 /* Main_iPad.storyboard */; };
+		C488DB2D18F37CB8002D0841 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C488DB2C18F37CB8002D0841 /* FirstViewController.m */; };
+		C488DB3018F37CB8002D0841 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C488DB2F18F37CB8002D0841 /* SecondViewController.m */; };
+		C488DB3218F37CB8002D0841 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C488DB3118F37CB8002D0841 /* Images.xcassets */; };
+		C488DB3918F37CB8002D0841 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C488DB3818F37CB8002D0841 /* XCTest.framework */; };
+		C488DB3A18F37CB8002D0841 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C488DB1318F37CB7002D0841 /* Foundation.framework */; };
+		C488DB3B18F37CB8002D0841 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C488DB1718F37CB7002D0841 /* UIKit.framework */; };
+		C488DB4318F37CB8002D0841 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C488DB4118F37CB8002D0841 /* InfoPlist.strings */; };
+		C488DB4518F37CB8002D0841 /* tabbedFindItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C488DB4418F37CB8002D0841 /* tabbedFindItTests.m */; };
+		C488DB5018F447E4002D0841 /* cameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C488DB4F18F447E4002D0841 /* cameraViewController.m */; };
+		C488DB5318F44873002D0841 /* profileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C488DB5218F44873002D0841 /* profileViewController.m */; };
+		C488DB5918F450E8002D0841 /* finditImages in Resources */ = {isa = PBXBuildFile; fileRef = C488DB5818F450E8002D0841 /* finditImages */; };
+		C488DB5C18F453EC002D0841 /* compassBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = C488DB5A18F453EB002D0841 /* compassBackground.png */; };
+		C488DB5D18F453EC002D0841 /* FindItIconBest.png in Resources */ = {isa = PBXBuildFile; fileRef = C488DB5B18F453EC002D0841 /* FindItIconBest.png */; };
+		C488DB6118F45EF0002D0841 /* cameraButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C488DB6018F45EF0002D0841 /* cameraButton.png */; };
+		C488DB6318F46224002D0841 /* findItActionIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C488DB6218F46224002D0841 /* findItActionIcon.png */; };
+		C488DB6518F465ED002D0841 /* finditBlendedBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = C488DB6418F465ED002D0841 /* finditBlendedBackground.png */; };
+		C488DB6B18F46C0E002D0841 /* footprint.png in Resources */ = {isa = PBXBuildFile; fileRef = C488DB6618F46C0E002D0841 /* footprint.png */; };
+		C488DB6D18F46C0E002D0841 /* trackGreenLight.png in Resources */ = {isa = PBXBuildFile; fileRef = C488DB6818F46C0E002D0841 /* trackGreenLight.png */; };
+		C488DB6E18F46C0E002D0841 /* trackItOnGreenHeart.png in Resources */ = {isa = PBXBuildFile; fileRef = C488DB6918F46C0E002D0841 /* trackItOnGreenHeart.png */; };
+		C488DB6F18F46C0E002D0841 /* trackItRedLight.png in Resources */ = {isa = PBXBuildFile; fileRef = C488DB6A18F46C0E002D0841 /* trackItRedLight.png */; };
+		C488DB7118F4715D002D0841 /* mapView.png in Resources */ = {isa = PBXBuildFile; fileRef = C488DB7018F4715D002D0841 /* mapView.png */; };
+		C488DB7518F474E5002D0841 /* trackItOffOrangeHeart.png in Resources */ = {isa = PBXBuildFile; fileRef = C488DB7418F474E5002D0841 /* trackItOffOrangeHeart.png */; };
+		C488DB7718F48C32002D0841 /* cameraView.png in Resources */ = {isa = PBXBuildFile; fileRef = C488DB7618F48C32002D0841 /* cameraView.png */; };
+		C488DB7918F49309002D0841 /* mtnRoadView.png in Resources */ = {isa = PBXBuildFile; fileRef = C488DB7818F49309002D0841 /* mtnRoadView.png */; };
+		C488DB8818F498C2002D0841 /* Action 2.png in Resources */ = {isa = PBXBuildFile; fileRef = C488DB7A18F498C2002D0841 /* Action 2.png */; };
+		C488DB8918F498C2002D0841 /* Back-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C488DB7B18F498C2002D0841 /* Back-1.png */; };
+		C488DB8A18F498C2002D0841 /* Camera 4.49.06 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = C488DB7C18F498C2002D0841 /* Camera 4.49.06 PM.png */; };
+		C488DB8B18F498C2002D0841 /* Forward-2 4.49.06 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = C488DB7D18F498C2002D0841 /* Forward-2 4.49.06 PM.png */; };
+		C488DB8C18F498C2002D0841 /* GPS.png in Resources */ = {isa = PBXBuildFile; fileRef = C488DB7E18F498C2002D0841 /* GPS.png */; };
+		C488DB8D18F498C2002D0841 /* group.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C488DB7F18F498C2002D0841 /* group.jpeg */; };
+		C488DB8E18F498C2002D0841 /* home-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C488DB8018F498C2002D0841 /* home-2.png */; };
+		C488DB8F18F498C2002D0841 /* kbrd.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C488DB8118F498C2002D0841 /* kbrd.jpeg */; };
+		C488DB9018F498C2002D0841 /* map.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C488DB8218F498C2002D0841 /* map.jpeg */; };
+		C488DB9118F498C2002D0841 /* Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = C488DB8318F498C2002D0841 /* Portrait.png */; };
+		C488DB9218F498C2002D0841 /* Refresh 4.49.06 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = C488DB8418F498C2002D0841 /* Refresh 4.49.06 PM.png */; };
+		C488DB9318F498C2002D0841 /* Settings 4.49.06 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = C488DB8518F498C2002D0841 /* Settings 4.49.06 PM.png */; };
+		C488DB9418F498C2002D0841 /* tracks.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C488DB8618F498C2002D0841 /* tracks.jpeg */; };
+		C488DB9518F498C2002D0841 /* view.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C488DB8718F498C2002D0841 /* view.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C488DB3C18F37CB8002D0841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C488DB0818F37CB7002D0841 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C488DB0F18F37CB7002D0841;
+			remoteInfo = tabbedFindIt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C42FCB5118F5583100EFA074 /* customCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customCell.png; sourceTree = "<group>"; };
+		C42FCB5318F55A2B00EFA074 /* cameraCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraCell.png; sourceTree = "<group>"; };
+		C42FCB5418F55A2B00EFA074 /* groupCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = groupCell.png; sourceTree = "<group>"; };
+		C42FCB5718F5833000EFA074 /* firstVC2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstVC2ViewController.h; sourceTree = "<group>"; };
+		C42FCB5818F5833000EFA074 /* firstVC2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstVC2ViewController.m; sourceTree = "<group>"; };
+		C42FCB5A18F5834600EFA074 /* secondVC2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondVC2ViewController.h; sourceTree = "<group>"; };
+		C42FCB5B18F5834600EFA074 /* secondVC2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondVC2ViewController.m; sourceTree = "<group>"; };
+		C42FCB6018F5839600EFA074 /* cameraVC2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cameraVC2ViewController.h; sourceTree = "<group>"; };
+		C42FCB6118F5839600EFA074 /* cameraVC2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cameraVC2ViewController.m; sourceTree = "<group>"; };
+		C42FCB6318F583A800EFA074 /* profileVC2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profileVC2ViewController.h; sourceTree = "<group>"; };
+		C42FCB6418F583A800EFA074 /* profileVC2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = profileVC2ViewController.m; sourceTree = "<group>"; };
+		C42FCB6F18F628DF00EFA074 /* mistyTrail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mistyTrail.png; sourceTree = "<group>"; };
+		C42FCB7018F628DF00EFA074 /* moonView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moonView.png; sourceTree = "<group>"; };
+		C42FCB7118F628DF00EFA074 /* rainbowSky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rainbowSky.png; sourceTree = "<group>"; };
+		C42FCB7218F628DF00EFA074 /* riverView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = riverView.png; sourceTree = "<group>"; };
+		C42FCB7918F64D5900EFA074 /* redderX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redderX.png; sourceTree = "<group>"; };
+		C42FCB7B18F64F4800EFA074 /* thirdTrackItViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thirdTrackItViewController.h; sourceTree = "<group>"; };
+		C42FCB7C18F64F4800EFA074 /* thirdTrackItViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = thirdTrackItViewController.m; sourceTree = "<group>"; };
+		C47ADE1C18F6F34000713568 /* Outline@2x */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Outline@2x"; sourceTree = "<group>"; };
+		C488DB1018F37CB7002D0841 /* tabbedFindIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabbedFindIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C488DB1318F37CB7002D0841 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C488DB1518F37CB7002D0841 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C488DB1718F37CB7002D0841 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C488DB1B18F37CB8002D0841 /* tabbedFindIt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tabbedFindIt-Info.plist"; sourceTree = "<group>"; };
+		C488DB1D18F37CB8002D0841 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C488DB1F18F37CB8002D0841 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C488DB2118F37CB8002D0841 /* tabbedFindIt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tabbedFindIt-Prefix.pch"; sourceTree = "<group>"; };
+		C488DB2318F37CB8002D0841 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C488DB2618F37CB8002D0841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		C488DB2918F37CB8002D0841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		C488DB2B18F37CB8002D0841 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C488DB2C18F37CB8002D0841 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C488DB2E18F37CB8002D0841 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C488DB2F18F37CB8002D0841 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C488DB3118F37CB8002D0841 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C488DB3718F37CB8002D0841 /* tabbedFindItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tabbedFindItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C488DB3818F37CB8002D0841 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C488DB4018F37CB8002D0841 /* tabbedFindItTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tabbedFindItTests-Info.plist"; sourceTree = "<group>"; };
+		C488DB4218F37CB8002D0841 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C488DB4418F37CB8002D0841 /* tabbedFindItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tabbedFindItTests.m; sourceTree = "<group>"; };
+		C488DB4E18F447E4002D0841 /* cameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cameraViewController.h; sourceTree = "<group>"; };
+		C488DB4F18F447E4002D0841 /* cameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cameraViewController.m; sourceTree = "<group>"; };
+		C488DB5118F44873002D0841 /* profileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profileViewController.h; sourceTree = "<group>"; };
+		C488DB5218F44873002D0841 /* profileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = profileViewController.m; sourceTree = "<group>"; };
+		C488DB5818F450E8002D0841 /* finditImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = finditImages; sourceTree = "<group>"; };
+		C488DB5A18F453EB002D0841 /* compassBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compassBackground.png; sourceTree = "<group>"; };
+		C488DB5B18F453EC002D0841 /* FindItIconBest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FindItIconBest.png; sourceTree = "<group>"; };
+		C488DB6018F45EF0002D0841 /* cameraButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraButton.png; sourceTree = "<group>"; };
+		C488DB6218F46224002D0841 /* findItActionIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = findItActionIcon.png; sourceTree = "<group>"; };
+		C488DB6418F465ED002D0841 /* finditBlendedBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finditBlendedBackground.png; sourceTree = "<group>"; };
+		C488DB6618F46C0E002D0841 /* footprint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footprint.png; sourceTree = "<group>"; };
+		C488DB6818F46C0E002D0841 /* trackGreenLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackGreenLight.png; sourceTree = "<group>"; };
+		C488DB6918F46C0E002D0841 /* trackItOnGreenHeart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackItOnGreenHeart.png; sourceTree = "<group>"; };
+		C488DB6A18F46C0E002D0841 /* trackItRedLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackItRedLight.png; sourceTree = "<group>"; };
+		C488DB7018F4715D002D0841 /* mapView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapView.png; sourceTree = "<group>"; };
+		C488DB7418F474E5002D0841 /* trackItOffOrangeHeart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackItOffOrangeHeart.png; sourceTree = "<group>"; };
+		C488DB7618F48C32002D0841 /* cameraView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraView.png; sourceTree = "<group>"; };
+		C488DB7818F49309002D0841 /* mtnRoadView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mtnRoadView.png; sourceTree = "<group>"; };
+		C488DB7A18F498C2002D0841 /* Action 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Action 2.png"; path = "finditImages/Action 2.png"; sourceTree = "<group>"; };
+		C488DB7B18F498C2002D0841 /* Back-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Back-1.png"; path = "finditImages/Back-1.png"; sourceTree = "<group>"; };
+		C488DB7C18F498C2002D0841 /* Camera 4.49.06 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Camera 4.49.06 PM.png"; path = "finditImages/Camera 4.49.06 PM.png"; sourceTree = "<group>"; };
+		C488DB7D18F498C2002D0841 /* Forward-2 4.49.06 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Forward-2 4.49.06 PM.png"; path = "finditImages/Forward-2 4.49.06 PM.png"; sourceTree = "<group>"; };
+		C488DB7E18F498C2002D0841 /* GPS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GPS.png; path = finditImages/GPS.png; sourceTree = "<group>"; };
+		C488DB7F18F498C2002D0841 /* group.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = group.jpeg; path = finditImages/group.jpeg; sourceTree = "<group>"; };
+		C488DB8018F498C2002D0841 /* home-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home-2.png"; path = "finditImages/home-2.png"; sourceTree = "<group>"; };
+		C488DB8118F498C2002D0841 /* kbrd.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kbrd.jpeg; path = finditImages/kbrd.jpeg; sourceTree = "<group>"; };
+		C488DB8218F498C2002D0841 /* map.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = map.jpeg; path = finditImages/map.jpeg; sourceTree = "<group>"; };
+		C488DB8318F498C2002D0841 /* Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Portrait.png; path = finditImages/Portrait.png; sourceTree = "<group>"; };
+		C488DB8418F498C2002D0841 /* Refresh 4.49.06 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Refresh 4.49.06 PM.png"; path = "finditImages/Refresh 4.49.06 PM.png"; sourceTree = "<group>"; };
+		C488DB8518F498C2002D0841 /* Settings 4.49.06 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Settings 4.49.06 PM.png"; path = "finditImages/Settings 4.49.06 PM.png"; sourceTree = "<group>"; };
+		C488DB8618F498C2002D0841 /* tracks.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tracks.jpeg; path = finditImages/tracks.jpeg; sourceTree = "<group>"; };
+		C488DB8718F498C2002D0841 /* view.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = view.jpeg; path = finditImages/view.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C488DB0D18F37CB7002D0841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C488DB1618F37CB7002D0841 /* CoreGraphics.framework in Frameworks */,
+				C488DB1818F37CB7002D0841 /* UIKit.framework in Frameworks */,
+				C488DB1418F37CB7002D0841 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C488DB3418F37CB8002D0841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C488DB3918F37CB8002D0841 /* XCTest.framework in Frameworks */,
+				C488DB3B18F37CB8002D0841 /* UIKit.framework in Frameworks */,
+				C488DB3A18F37CB8002D0841 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C42FCB6918F5EFCA00EFA074 /* homePage */ = {
+			isa = PBXGroup;
+			children = (
+				C488DB2B18F37CB8002D0841 /* FirstViewController.h */,
+				C488DB2C18F37CB8002D0841 /* FirstViewController.m */,
+				C42FCB5718F5833000EFA074 /* firstVC2ViewController.h */,
+				C42FCB5818F5833000EFA074 /* firstVC2ViewController.m */,
+			);
+			name = homePage;
+			sourceTree = "<group>";
+		};
+		C42FCB6A18F5F02A00EFA074 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C488DB5818F450E8002D0841 /* finditImages */,
+				C47ADE1C18F6F34000713568 /* Outline@2x */,
+				C42FCB7918F64D5900EFA074 /* redderX.png */,
+				C42FCB6E18F622AA00EFA074 /* swipeImages */,
+				C42FCB5318F55A2B00EFA074 /* cameraCell.png */,
+				C42FCB5418F55A2B00EFA074 /* groupCell.png */,
+				C42FCB5118F5583100EFA074 /* customCell.png */,
+				C488DB7A18F498C2002D0841 /* Action 2.png */,
+				C488DB7B18F498C2002D0841 /* Back-1.png */,
+				C488DB7C18F498C2002D0841 /* Camera 4.49.06 PM.png */,
+				C488DB7D18F498C2002D0841 /* Forward-2 4.49.06 PM.png */,
+				C488DB7E18F498C2002D0841 /* GPS.png */,
+				C488DB7F18F498C2002D0841 /* group.jpeg */,
+				C488DB8018F498C2002D0841 /* home-2.png */,
+				C488DB8118F498C2002D0841 /* kbrd.jpeg */,
+				C488DB8218F498C2002D0841 /* map.jpeg */,
+				C488DB8318F498C2002D0841 /* Portrait.png */,
+				C488DB8418F498C2002D0841 /* Refresh 4.49.06 PM.png */,
+				C488DB8518F498C2002D0841 /* Settings 4.49.06 PM.png */,
+				C488DB8618F498C2002D0841 /* tracks.jpeg */,
+				C488DB8718F498C2002D0841 /* view.jpeg */,
+				C488DB7818F49309002D0841 /* mtnRoadView.png */,
+				C488DB7618F48C32002D0841 /* cameraView.png */,
+				C488DB7418F474E5002D0841 /* trackItOffOrangeHeart.png */,
+				C488DB7018F4715D002D0841 /* mapView.png */,
+				C488DB6618F46C0E002D0841 /* footprint.png */,
+				C488DB6818F46C0E002D0841 /* trackGreenLight.png */,
+				C488DB6918F46C0E002D0841 /* trackItOnGreenHeart.png */,
+				C488DB6A18F46C0E002D0841 /* trackItRedLight.png */,
+				C488DB6418F465ED002D0841 /* finditBlendedBackground.png */,
+				C488DB6218F46224002D0841 /* findItActionIcon.png */,
+				C488DB6018F45EF0002D0841 /* cameraButton.png */,
+				C488DB5A18F453EB002D0841 /* compassBackground.png */,
+				C488DB5B18F453EC002D0841 /* FindItIconBest.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		C42FCB6B18F5F0B200EFA074 /* trackIt */ = {
+			isa = PBXGroup;
+			children = (
+				C488DB2E18F37CB8002D0841 /* SecondViewController.h */,
+				C488DB2F18F37CB8002D0841 /* SecondViewController.m */,
+				C42FCB5A18F5834600EFA074 /* secondVC2ViewController.h */,
+				C42FCB5B18F5834600EFA074 /* secondVC2ViewController.m */,
+				C42FCB7B18F64F4800EFA074 /* thirdTrackItViewController.h */,
+				C42FCB7C18F64F4800EFA074 /* thirdTrackItViewController.m */,
+			);
+			name = trackIt;
+			sourceTree = "<group>";
+		};
+		C42FCB6C18F5F0ED00EFA074 /* snapIt */ = {
+			isa = PBXGroup;
+			children = (
+				C488DB4E18F447E4002D0841 /* cameraViewController.h */,
+				C488DB4F18F447E4002D0841 /* cameraViewController.m */,
+				C42FCB6018F5839600EFA074 /* cameraVC2ViewController.h */,
+				C42FCB6118F5839600EFA074 /* cameraVC2ViewController.m */,
+			);
+			name = snapIt;
+			sourceTree = "<group>";
+		};
+		C42FCB6D18F5F10200EFA074 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				C488DB5118F44873002D0841 /* profileViewController.h */,
+				C488DB5218F44873002D0841 /* profileViewController.m */,
+				C42FCB6318F583A800EFA074 /* profileVC2ViewController.h */,
+				C42FCB6418F583A800EFA074 /* profileVC2ViewController.m */,
+			);
+			name = profile;
+			sourceTree = "<group>";
+		};
+		C42FCB6E18F622AA00EFA074 /* swipeImages */ = {
+			isa = PBXGroup;
+			children = (
+				C42FCB6F18F628DF00EFA074 /* mistyTrail.png */,
+				C42FCB7018F628DF00EFA074 /* moonView.png */,
+				C42FCB7118F628DF00EFA074 /* rainbowSky.png */,
+				C42FCB7218F628DF00EFA074 /* riverView.png */,
+			);
+			name = swipeImages;
+			sourceTree = "<group>";
+		};
+		C488DB0718F37CB7002D0841 = {
+			isa = PBXGroup;
+			children = (
+				C488DB1918F37CB7002D0841 /* tabbedFindIt */,
+				C488DB3E18F37CB8002D0841 /* tabbedFindItTests */,
+				C488DB1218F37CB7002D0841 /* Frameworks */,
+				C488DB1118F37CB7002D0841 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C488DB1118F37CB7002D0841 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C488DB1018F37CB7002D0841 /* tabbedFindIt.app */,
+				C488DB3718F37CB8002D0841 /* tabbedFindItTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C488DB1218F37CB7002D0841 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C488DB1318F37CB7002D0841 /* Foundation.framework */,
+				C488DB1518F37CB7002D0841 /* CoreGraphics.framework */,
+				C488DB1718F37CB7002D0841 /* UIKit.framework */,
+				C488DB3818F37CB8002D0841 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C488DB1918F37CB7002D0841 /* tabbedFindIt */ = {
+			isa = PBXGroup;
+			children = (
+				C42FCB6918F5EFCA00EFA074 /* homePage */,
+				C42FCB6B18F5F0B200EFA074 /* trackIt */,
+				C42FCB6D18F5F10200EFA074 /* profile */,
+				C42FCB6C18F5F0ED00EFA074 /* snapIt */,
+				C42FCB6A18F5F02A00EFA074 /* images */,
+				C488DB2318F37CB8002D0841 /* AppDelegate.m */,
+				C488DB2518F37CB8002D0841 /* Main_iPhone.storyboard */,
+				C488DB2818F37CB8002D0841 /* Main_iPad.storyboard */,
+				C488DB3118F37CB8002D0841 /* Images.xcassets */,
+				C488DB1A18F37CB7002D0841 /* Supporting Files */,
+			);
+			path = tabbedFindIt;
+			sourceTree = "<group>";
+		};
+		C488DB1A18F37CB7002D0841 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C488DB1B18F37CB8002D0841 /* tabbedFindIt-Info.plist */,
+				C488DB1C18F37CB8002D0841 /* InfoPlist.strings */,
+				C488DB1F18F37CB8002D0841 /* main.m */,
+				C488DB2118F37CB8002D0841 /* tabbedFindIt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C488DB3E18F37CB8002D0841 /* tabbedFindItTests */ = {
+			isa = PBXGroup;
+			children = (
+				C488DB4418F37CB8002D0841 /* tabbedFindItTests.m */,
+				C488DB3F18F37CB8002D0841 /* Supporting Files */,
+			);
+			path = tabbedFindItTests;
+			sourceTree = "<group>";
+		};
+		C488DB3F18F37CB8002D0841 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C488DB4018F37CB8002D0841 /* tabbedFindItTests-Info.plist */,
+				C488DB4118F37CB8002D0841 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C488DB0F18F37CB7002D0841 /* tabbedFindIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C488DB4818F37CB8002D0841 /* Build configuration list for PBXNativeTarget "tabbedFindIt" */;
+			buildPhases = (
+				C488DB0C18F37CB7002D0841 /* Sources */,
+				C488DB0D18F37CB7002D0841 /* Frameworks */,
+				C488DB0E18F37CB7002D0841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tabbedFindIt;
+			productName = tabbedFindIt;
+			productReference = C488DB1018F37CB7002D0841 /* tabbedFindIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C488DB3618F37CB8002D0841 /* tabbedFindItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C488DB4B18F37CB8002D0841 /* Build configuration list for PBXNativeTarget "tabbedFindItTests" */;
+			buildPhases = (
+				C488DB3318F37CB8002D0841 /* Sources */,
+				C488DB3418F37CB8002D0841 /* Frameworks */,
+				C488DB3518F37CB8002D0841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C488DB3D18F37CB8002D0841 /* PBXTargetDependency */,
+			);
+			name = tabbedFindItTests;
+			productName = tabbedFindItTests;
+			productReference = C488DB3718F37CB8002D0841 /* tabbedFindItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C488DB0818F37CB7002D0841 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Howard Livingston";
+				TargetAttributes = {
+					C488DB3618F37CB8002D0841 = {
+						TestTargetID = C488DB0F18F37CB7002D0841;
+					};
+				};
+			};
+			buildConfigurationList = C488DB0B18F37CB7002D0841 /* Build configuration list for PBXProject "tabbedFindIt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C488DB0718F37CB7002D0841;
+			productRefGroup = C488DB1118F37CB7002D0841 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C488DB0F18F37CB7002D0841 /* tabbedFindIt */,
+				C488DB3618F37CB8002D0841 /* tabbedFindItTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C488DB0E18F37CB7002D0841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C488DB9118F498C2002D0841 /* Portrait.png in Resources */,
+				C42FCB5218F5583100EFA074 /* customCell.png in Resources */,
+				C488DB8A18F498C2002D0841 /* Camera 4.49.06 PM.png in Resources */,
+				C488DB6E18F46C0E002D0841 /* trackItOnGreenHeart.png in Resources */,
+				C42FCB7A18F64D5900EFA074 /* redderX.png in Resources */,
+				C42FCB7418F628DF00EFA074 /* moonView.png in Resources */,
+				C488DB6118F45EF0002D0841 /* cameraButton.png in Resources */,
+				C488DB6F18F46C0E002D0841 /* trackItRedLight.png in Resources */,
+				C488DB2A18F37CB8002D0841 /* Main_iPad.storyboard in Resources */,
+				C488DB8818F498C2002D0841 /* Action 2.png in Resources */,
+				C488DB3218F37CB8002D0841 /* Images.xcassets in Resources */,
+				C488DB6D18F46C0E002D0841 /* trackGreenLight.png in Resources */,
+				C488DB8F18F498C2002D0841 /* kbrd.jpeg in Resources */,
+				C488DB7718F48C32002D0841 /* cameraView.png in Resources */,
+				C42FCB5518F55A2B00EFA074 /* cameraCell.png in Resources */,
+				C488DB8C18F498C2002D0841 /* GPS.png in Resources */,
+				C488DB8918F498C2002D0841 /* Back-1.png in Resources */,
+				C42FCB7318F628DF00EFA074 /* mistyTrail.png in Resources */,
+				C488DB8D18F498C2002D0841 /* group.jpeg in Resources */,
+				C488DB5D18F453EC002D0841 /* FindItIconBest.png in Resources */,
+				C488DB7918F49309002D0841 /* mtnRoadView.png in Resources */,
+				C488DB9418F498C2002D0841 /* tracks.jpeg in Resources */,
+				C488DB7118F4715D002D0841 /* mapView.png in Resources */,
+				C488DB6318F46224002D0841 /* findItActionIcon.png in Resources */,
+				C488DB9018F498C2002D0841 /* map.jpeg in Resources */,
+				C488DB7518F474E5002D0841 /* trackItOffOrangeHeart.png in Resources */,
+				C488DB5C18F453EC002D0841 /* compassBackground.png in Resources */,
+				C42FCB7518F628DF00EFA074 /* rainbowSky.png in Resources */,
+				C488DB8E18F498C2002D0841 /* home-2.png in Resources */,
+				C488DB9218F498C2002D0841 /* Refresh 4.49.06 PM.png in Resources */,
+				C488DB9518F498C2002D0841 /* view.jpeg in Resources */,
+				C42FCB7618F628DF00EFA074 /* riverView.png in Resources */,
+				C488DB9318F498C2002D0841 /* Settings 4.49.06 PM.png in Resources */,
+				C47ADE1D18F6F34000713568 /* Outline@2x in Resources */,
+				C488DB6B18F46C0E002D0841 /* footprint.png in Resources */,
+				C488DB6518F465ED002D0841 /* finditBlendedBackground.png in Resources */,
+				C488DB2718F37CB8002D0841 /* Main_iPhone.storyboard in Resources */,
+				C488DB5918F450E8002D0841 /* finditImages in Resources */,
+				C488DB1E18F37CB8002D0841 /* InfoPlist.strings in Resources */,
+				C42FCB5618F55A2B00EFA074 /* groupCell.png in Resources */,
+				C488DB8B18F498C2002D0841 /* Forward-2 4.49.06 PM.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C488DB3518F37CB8002D0841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C488DB4318F37CB8002D0841 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C488DB0C18F37CB7002D0841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C488DB3018F37CB8002D0841 /* SecondViewController.m in Sources */,
+				C488DB2418F37CB8002D0841 /* AppDelegate.m in Sources */,
+				C42FCB5C18F5834600EFA074 /* secondVC2ViewController.m in Sources */,
+				C42FCB7D18F64F4800EFA074 /* thirdTrackItViewController.m in Sources */,
+				C488DB5318F44873002D0841 /* profileViewController.m in Sources */,
+				C42FCB5918F5833000EFA074 /* firstVC2ViewController.m in Sources */,
+				C488DB2D18F37CB8002D0841 /* FirstViewController.m in Sources */,
+				C42FCB6518F583A800EFA074 /* profileVC2ViewController.m in Sources */,
+				C488DB2018F37CB8002D0841 /* main.m in Sources */,
+				C42FCB6218F5839600EFA074 /* cameraVC2ViewController.m in Sources */,
+				C488DB5018F447E4002D0841 /* cameraViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C488DB3318F37CB8002D0841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C488DB4518F37CB8002D0841 /* tabbedFindItTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C488DB3D18F37CB8002D0841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C488DB0F18F37CB7002D0841 /* tabbedFindIt */;
+			targetProxy = C488DB3C18F37CB8002D0841 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C488DB1C18F37CB8002D0841 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C488DB1D18F37CB8002D0841 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C488DB2518F37CB8002D0841 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C488DB2618F37CB8002D0841 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C488DB2818F37CB8002D0841 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C488DB2918F37CB8002D0841 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C488DB4118F37CB8002D0841 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C488DB4218F37CB8002D0841 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C488DB4618F37CB8002D0841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C488DB4718F37CB8002D0841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C488DB4918F37CB8002D0841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tabbedFindIt/tabbedFindIt-Prefix.pch";
+				INFOPLIST_FILE = "tabbedFindIt/tabbedFindIt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C488DB4A18F37CB8002D0841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tabbedFindIt/tabbedFindIt-Prefix.pch";
+				INFOPLIST_FILE = "tabbedFindIt/tabbedFindIt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C488DB4C18F37CB8002D0841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tabbedFindIt.app/tabbedFindIt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tabbedFindIt/tabbedFindIt-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "tabbedFindItTests/tabbedFindItTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C488DB4D18F37CB8002D0841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tabbedFindIt.app/tabbedFindIt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tabbedFindIt/tabbedFindIt-Prefix.pch";
+				INFOPLIST_FILE = "tabbedFindItTests/tabbedFindItTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C488DB0B18F37CB7002D0841 /* Build configuration list for PBXProject "tabbedFindIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C488DB4618F37CB8002D0841 /* Debug */,
+				C488DB4718F37CB8002D0841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C488DB4818F37CB8002D0841 /* Build configuration list for PBXNativeTarget "tabbedFindIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C488DB4918F37CB8002D0841 /* Debug */,
+				C488DB4A18F37CB8002D0841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C488DB4B18F37CB8002D0841 /* Build configuration list for PBXNativeTarget "tabbedFindItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C488DB4C18F37CB8002D0841 /* Debug */,
+				C488DB4D18F37CB8002D0841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C488DB0818F37CB7002D0841 /* Project object */;
+}
